@@ -1,0 +1,83 @@
+#.......don't share this note to your client!.......#
+psd to html responsive with bootstrap
+
+--------------fonts-----------------
+
+font-family: "PT Sans", sans-serif;	
+
+css code:
+
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+------------------color---------------------
+
+
+black: #010101
+ash: #898989
+yellow: #fcdb00
+
+
+===========================================
+
+xxl: 1440 - 1600 - 1800 - 2100
+xl: 1200
+lg: 1024
+
+md: 768
+
+sm: 576
+col: 320
+
+===========================================
+
+-----------------mapping for responsive----------------
+
+---------------header
+
+			       xxl/xl/lg		md			sm/col
+header top-btm    10      10 
+menu              22			22				18		
+
+---------------slider
+
+              xxl/xl/lg   md      sm/col
+h1                32     32        25
+h2                20     20        18
+p                 16     16        16/15
+icon              42     42        35
+padding-btm     100       100       60
+
+
+---------------padding/margin [protita screen e padding margin rakhar rules]
+
+              xxl/xl/lg   md      sm/col
+       
+                100-120   80       50-70
+
+---------------feature
+
+              xxl/xl/lg   md      sm/col
+padding-top       100     80         50
+padding-bottom    120     100        70
+mt                70      50         30
+h1                32      32         25
+p                 20      20         17
+icon              50      50         35
+h2                22      22         20/18
+p                 16      16         16
+
+----------------footer
+
+              xxl/xl/lg   md      sm/col
+padding-top        0       0          0
+padding-bottom    120     100        70
